@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 def uppercase(str):
     for c in str:
-        if 97 <= ord(c) <= 122:  # kiçik hərf
-            print("{}".format(chr(ord(c) - 32)), end="")
-        else:
-            print("{}".format(c), end="")
+        print("{}".format(chr(ord(c) - 32) if 97 <= ord(c) <= 122 else c), end="")
+    print()
