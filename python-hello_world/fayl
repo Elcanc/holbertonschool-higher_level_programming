@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+read -p "fayl adi: " filename
+
+touch $filename
+
+chmod +x $filename
