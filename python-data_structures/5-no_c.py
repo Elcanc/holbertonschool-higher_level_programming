@@ -3,4 +3,4 @@ def no_c(my_string):
     for i in my_string:
         if i != "C" or i != "c":
             my_string += i
-print(my_string)
+    print(my_string)
