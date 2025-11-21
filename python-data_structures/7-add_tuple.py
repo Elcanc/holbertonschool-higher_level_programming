@@ -21,4 +21,4 @@ def add_tuple(tuple_a=(), tuple_b=()):
     c = x + m
     d = y + n
     new_tuple = (c, d)
-    print(new_tuple)
+    return new_tuple
