@@ -3,7 +3,7 @@ def best_score(a_dictionary):
     list = []
     for i in a_dictionary:
         if isinstance(a_dictionary[i], int):
-            list.append(dictionary[i])
+            list.append(a_dictionary[i])
     new = sorted(list)
     a = new[-1]
     for key, value in a_dictionary:
