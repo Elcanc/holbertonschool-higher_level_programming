@@ -9,6 +9,6 @@ def roman_to_int(roman_string):
             r += roman_string[a: a+2]
             a += 2
         else:
-            r += roman_string[a]
+            r += roman_string(a)
             a += 1
     return r
