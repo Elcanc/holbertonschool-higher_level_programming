@@ -11,4 +11,4 @@ def roman_to_int(roman_string):
         else:
             r += dic[roman_string[a]]
             a += 1
-    return
+    return r
