@@ -6,9 +6,9 @@ def roman_to_int(roman_string):
     n = len(roman_string)
     while a < n:
         if a + 1 < n and roman_string[a: a+2] in dic:
-            r += roman_string[a: a+2]
+            r += dic[roman_string[a: a+2]]
             a += 2
         else:
-            r += roman_string(a)
+            r += dic[roman_string[a]]
             a += 1
-    return r
+    return
