@@ -4,6 +4,8 @@ def roman_to_int(roman_string):
     a = 0
     r = 0
     n = len(roman_string)
+    if isinstance(roman_string, int):
+        return 0
     while a < n:
         if a + 1 < n and roman_string[a: a+2] in dic:
             r += dic[roman_string[a: a+2]]
