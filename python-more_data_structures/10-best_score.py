@@ -3,6 +3,10 @@ def best_score(a_dictionary):
     list = []
     for i in a_dictionary:
         if isinstance(a_dictionary[i], int):
-            list.append(a_dictionary[i])
+            list.append(dictionary[i])
     new = sorted(list)
-    return new[-1]
+    a = new[-1]
+    for key, value in a_dictionary:
+        if value == a:
+            best_key = key
+    return best_key
