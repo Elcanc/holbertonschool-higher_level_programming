@@ -5,6 +5,8 @@
 class Rectangle:
     """Defines a rectangle with width and height, with area and perimeter."""
 
+    number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
