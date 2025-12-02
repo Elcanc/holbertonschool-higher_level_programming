@@ -2,9 +2,9 @@
 """prints rectangle wit #s"""
 
 
+
 class Rectangle:
     """Defines a rectangle with width and height, with area and perimeter."""
-
 
     def __init__(self, width=0, height=0):
         self.width = width
