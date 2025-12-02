@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""prints rectangle wit #s"""
 
+"""prints rectangle wit #s"""
 
 
 class Rectangle:
