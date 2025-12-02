@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """prints rectangle wit #s"""
 
 
@@ -50,3 +49,4 @@ class Rectangle:
             return ""
         lines = ["#" * self.__width for _ in range(self.__height)]
         return "\n".join(lines)
+
