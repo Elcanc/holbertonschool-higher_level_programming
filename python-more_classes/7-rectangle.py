@@ -8,6 +8,7 @@ class Rectangle:
 
     number_of_instances = 0
     print_symbol = "#"
+
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
@@ -112,7 +113,7 @@ class Rectangle:
     def __str__(self):
         if self.__width == 0 or self.__height == 0:
             return ""
-        lines = [str(self.print_symbol) * self.__width for _ in range(self.__height)]
+        lines = [str(print_symbol) * self.__width for _ in range(self.__height)]
         return "\n".join(lines)
 
     def __repr__(self):
