@@ -2,7 +2,7 @@
 """#"""
 
 
-class MyList(List):
+class MyList(list):
     def print_sorted(self):
         """ Inherits from list and adds a method to print sorted list. """
 
