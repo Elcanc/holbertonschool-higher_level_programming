@@ -13,7 +13,7 @@ class Student:
 
     def to_json(self, attrs=None):
         """Return dictionary representation of Student"""
-        if isinstance(attrs, list) and all(type(a) == str for a in attrs):
+        if isinstance(attrs, list) and all(isinstance(a, str) for a in attrs):
             filtered = {}
             for key in attrs:
                 if key in self.__dict__:
