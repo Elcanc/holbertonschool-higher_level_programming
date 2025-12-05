@@ -2,7 +2,7 @@
 """rectangle"""
 
 
-BaseGeometry = __import__('q7-base_geometry').BaseGeometry
+BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 class Rectangle(BaseGeometry):
     """rectangle that inherits from BaseGeometry"""
